@@ -1,6 +1,4 @@
-language: node_js
-node_js:
-  - "0.10"
+language: c
 
 env:
   global:
@@ -27,5 +25,5 @@ before_script:
 
 script:
   - docker version
-  - docker build -t macaulay2 fhinkel/macaulay2
+  - docker run fhinkel/macaulay2 M2
 
