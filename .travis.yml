@@ -25,5 +25,5 @@ before_script:
 
 script:
   - docker version
-  - docker run ubuntu /bin/echo hello world
+  - docker run fhinkel/macaulay2 /bin/echo exit | M2
 
