@@ -25,7 +25,5 @@ before_script:
 
 script:
   - docker version
-  - docker run fhinkel/macaulay2 M2 &
-  # Delete all docker images
-  - docker rm -f $(docker ps -a -q)
+  - docker run ubuntu /bin/echo hello world
 
