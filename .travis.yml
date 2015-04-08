@@ -27,5 +27,5 @@ before_script:
 
 script:
   - docker version
-  - docker run fhinkel/macaulay2 M2 --version
+  - docker run fhinkel/macaulay2 M2 -e "exit 0;"
 
