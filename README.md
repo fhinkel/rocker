@@ -1,6 +1,6 @@
 # rocker #
 
-[![Build Status](https://travis-ci.org/rocker-org/rocker.svg)](https://travis-ci.org/rocker-org/rocker)
+[![Build Status](https://travis-ci.org/fhinkel/rocker.svg?branch=master)](https://travis-ci.org/fhinkel/rocker)
 
 ## Overview ##
 
